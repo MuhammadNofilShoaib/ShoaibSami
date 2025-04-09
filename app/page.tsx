@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         <div data-aos="zoom-out-up" className="flex justify-center items-center relative">
-          <Image src="/main.png" alt="mainPic" width={400} height={472.65} className="absolute -bottom-24 md:-left-10"></Image>
+          <Image src="/daddy.jpg" alt="mainPic" width={400} height={472.65} className="absolute -bottom-20 md:-bottom-15 md:-left-10 rounded-full object-cover"></Image>
           <Image src="/shadow.png" alt="mainPic" width={348} height={24} className="absolute -bottom-10 md:-bottom-2 -z-10 md:-left-10 opacity-50"></Image>
           <Image src="/mainline.png" alt="mainPic" width={514} height={514}></Image>
         </div>

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Muhammad Shoaib Sami",
   description: "Video Editor | Web Developer",
   icons: {
-    icon: "/main.png",
+    icon: "/daddy.jpg",
   },
 };
 

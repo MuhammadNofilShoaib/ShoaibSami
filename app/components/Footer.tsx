@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FiGithub } from "react-icons/fi";
-import { TbBrandFiverr } from "react-icons/tb";
-import { FaUpwork } from "react-icons/fa6";
+// import { FaLinkedinIn } from "react-icons/fa6";
+// import { FiGithub } from "react-icons/fi";
+// import { TbBrandFiverr } from "react-icons/tb";
+// import { FaUpwork } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 
 
@@ -19,7 +19,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="flex justify-center items-center gap-4 sm:gap-5 md:gap-7">
+          {/* <div className="flex justify-center items-center gap-4 sm:gap-5 md:gap-7">
 
             <div className="flex justify-center items-center rounded-full w-12 h-12 bg-[#393E46] hover:bg-[#00adb5]  hover:ring-1 ring-white duration-300 ease-in-out">
               <Link target='_blank' href="https://www.linkedin.com/in/nofil-shoaib-6b284328a"><FaLinkedinIn className='scale-150' /></Link>
@@ -35,11 +35,15 @@ const Footer = () => {
             </div> 
 
 
-          </div>
+          </div> */}
 
-          <div className="flex justify-center items-center">
-            <Link href="mailto:nofilshoaib@gmail.com" className='tracking-widest underline underline-offset-4 italic text-[#00adb5] flex justify-center items-end gap-4 hover:text-white duration-300 ease-in-out'><span><CiMail className='scale-150'/></span> nofilshoaib@gmail.com</Link>
+          <div className="flex flex-col gap-1 justify-center items-center">
+          <Link href="mailto:nofilshoaib@gmail.com" className='tracking-widest underline underline-offset-4 italic text-[#00adb5] flex justify-center items-end gap-4 hover:text-white duration-300 ease-in-out'><span><CiMail className='scale-150'/></span> nofilshoaib@gmail.com</Link>
           </div>
+          
+          <h1 className="tracking-widest underline underline-offset-4 italic text-[#00adb5] flex justify-center items-end gap-4 hover:text-white duration-300 ease-in-out">
+          H.no R-2331/A Ahsanabad, Gulshan e Maymar, Karachi, Sindh, Pakistan</h1>
+          <h1 className="tracking-widest underline underline-offset-4 italic text-[#00adb5] flex justify-center items-end gap-4 hover:text-white duration-300 ease-in-out">+92 3012747872</h1>
 
       </div>
     </div>

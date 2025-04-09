@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { MdDownload } from "react-icons/md";
+// import { MdDownload } from "react-icons/md";
 import { RiSendPlane2Line } from "react-icons/ri";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -27,10 +27,12 @@ export default function Home() {
 
               <div className="-space-y-7 md:-space-y-9">
                 <h1 className="text-[42px] sm:text-[66px] md:text-[96px] font-bold uppercase md:leading-[80px]">front-end</h1>
-                <h1 className="text-[44px] sm:text-[66px] md:text-[96px] font-bold uppercase text-[#00ADB5]">developer</h1>
+                <h1 className="text-[44px] sm:text-[66px] md:text-[96px] font-bold uppercase text-[#00ADB5]">developer/</h1>
+                <h1 className="text-[42px] sm:text-[66px] md:text-[96px] font-bold uppercase md:leading-[80px]">Video</h1>
+                <h1 className="text-[44px] sm:text-[66px] md:text-[96px] font-bold uppercase text-[#00ADB5]">editor</h1>
               </div>
               <div className="flex flex-col md:flex-row items-start justify-center md:justify-start md:items-center gap-3 md:gap-5">
-                <Link  href="/https://www.upwork.com/freelancers/~0175b27c18d5c0cbde?mp_source=share">
+                {/* <Link  href="/https://www.upwork.com/freelancers/~0175b27c18d5c0cbde?mp_source=share">
                   <button className="px-8 py-[10px] bg-[#00ADB5] rounded-full uppercase font-bold shadow-[#00ADB5] shadow-2xl hover:scale-105 hover:ring-1 ring-white hover:opacity-90 duration-300 ease-in-out">hire me</button>
 
                 </Link>
@@ -41,7 +43,7 @@ export default function Home() {
                       <MdDownload className="scale-150" />
                     </span>
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -69,11 +71,18 @@ export default function Home() {
               <span className="text-white">about</span> me
             </h1>
             <p className="text-white/75 text-sm md:text-base max-w-[90%] md:max-w-[389px] leading-relaxed">
-              Hey there! I&apos;m Nofil Shoaib, a passionate Front-End Developer specializing in building modern, responsive, and high-performance websites. With expertise in Next.js, TypeScript, and Tailwind CSS, I craft dynamic user interfaces that are both visually stunning and functionally seamless.
+              {/* Hey there! I&apos;m Nofil Shoaib, a passionate Front-End Developer specializing in building modern, responsive, and high-performance websites. With expertise in Next.js, TypeScript, and Tailwind CSS, I craft dynamic user interfaces that are both visually stunning and functionally seamless.
               <br /><br />
               I love solving complex problems with clean, efficient code and creating engaging web experiences that leave a lasting impact. My journey in web development has led me to build e-commerce platforms, multi-page websites, and headless CMS integrations using Sanity.io.
               <br /><br />
-              Whether it&apos;s a sleek portfolio, a feature-rich marketplace, or a custom web solution, I bring innovation and attention to detail to every project. Let&apos;s collaborate and bring your ideas to life! 🚀
+              Whether it&apos;s a sleek portfolio, a feature-rich marketplace, or a custom web solution, I bring innovation and attention to detail to every project. Let&apos;s collaborate and bring your ideas to life! 🚀 */}
+
+              At Muhammad Shoaib Sami, we specialize in video editing and web development to help bring your projects to life. <br /> <br />Our video editing services include music video editing, clip replacement, and project file delivery, all tailored to meet your creative needs. <br /> <br />
+
+              In addition to video editing, we also offer custom web development services, including building responsive websites and e-commerce solutions using the latest technologies like Next.js, TypeScript, and Tailwind CSS. <br /> <br />
+
+              Feel free to reach out to us for high-quality, professional services!
+
 
             </p>
           </div>
@@ -108,21 +117,36 @@ export default function Home() {
           {/* Projects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 w-full">
             {/* Project 1 */}
-            <Link data-aos="zoom-out-up"
+            {/* <Link data-aos="zoom-out-up"
               href="https://hackathon-q2-three.vercel.app/"
               target="_blank"
               className="flex justify-center items-center bg-[#393E46]/50 backdrop-blur-sm rounded-xl w-full max-w-[368px] h-[280px] hover:ring-1 ring-white duration-300 ease-in-out"
             >
               <Image src="/1.png" alt="Furniaura - Marketplace" width={265} height={158} className="rounded-lg" />
+            </Link> */}
+            <Link data-aos="zoom-out-up"
+              href="https://www.youtube.com/watch?v=NDFmxIPO8nY"
+              target="_blank"
+              className="flex justify-center items-center bg-[#393E46]/50 backdrop-blur-sm rounded-xl w-full max-w-[368px] h-[280px] hover:ring-1 ring-white duration-300 ease-in-out"
+            >
+              <Image src="/ed1.png" alt="youtube video edit" width={265} height={158} className="rounded-lg" />
             </Link>
 
             {/* Project 2 */}
-            <Link data-aos="zoom-out-up"
+            {/* <Link data-aos="zoom-out-up"
               href="https://rizfan-portfolio.vercel.app/"
               target="_blank"
               className="flex justify-center items-center bg-[#393E46]/50 backdrop-blur-sm rounded-xl w-full max-w-[368px] h-[280px] hover:ring-1 ring-white duration-300 ease-in-out"
             >
               <Image src="/2.png" alt="Portfolio Website" width={265} height={158} className="rounded-lg" />
+            </Link> */}
+
+            <Link data-aos="zoom-out-up"
+              href="https://www.youtube.com/watch?v=CKmSuZigpF4"
+              target="_blank"
+              className="flex justify-center items-center bg-[#393E46]/50 backdrop-blur-sm rounded-xl w-full max-w-[368px] h-[280px] hover:ring-1 ring-white duration-300 ease-in-out"
+            >
+              <Image src="/ed2.png" alt="YT video edit" width={265} height={158} className="rounded-lg" />
             </Link>
 
             {/* Project 3 */}
